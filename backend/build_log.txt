@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.leetcodeanalyser:leetcode-analyser >---------------
+[INFO] Building leetcode-analyser 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.2:run (default-cli) > test-compile @ leetcode-analyser >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ leetcode-analyser ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ leetcode-analyser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ leetcode-analyser ---
+[INFO] skip non existing resourceDirectory C:\Users\pranav\Desktop\leetcode-practice-analyser\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ leetcode-analyser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.2.2:run (default-cli) < test-compile @ leetcode-analyser <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.2:run (default-cli) @ leetcode-analyser ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-03-21T09:50:04.740+05:30  INFO 30552 --- [leetcode-analyser] [           main] c.l.LeetcodeAnalyserApplication          : Starting LeetcodeAnalyserApplication using Java 17.0.16 with PID 30552 (C:\Users\pranav\Desktop\leetcode-practice-analyser\backend\target\classes started by pranav in C:\Users\pranav\Desktop\leetcode-practice-analyser\backend)
+2026-03-21T09:50:04.744+05:30  INFO 30552 --- [leetcode-analyser] [           main] c.l.LeetcodeAnalyserApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-21T09:50:05.535+05:30  INFO 30552 --- [leetcode-analyser] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-21T09:50:05.550+05:30  INFO 30552 --- [leetcode-analyser] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-21T09:50:05.550+05:30  INFO 30552 --- [leetcode-analyser] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-03-21T09:50:05.634+05:30  INFO 30552 --- [leetcode-analyser] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-21T09:50:05.636+05:30  INFO 30552 --- [leetcode-analyser] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 831 ms
+2026-03-21T09:50:05.934+05:30  INFO 30552 --- [leetcode-analyser] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-21T09:50:05.940+05:30  INFO 30552 --- [leetcode-analyser] [           main] c.l.LeetcodeAnalyserApplication          : Started LeetcodeAnalyserApplication in 1.513 seconds (process running for 1.813)
+2026-03-21T09:50:46.517+05:30  INFO 30552 --- [leetcode-analyser] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-21T09:50:46.517+05:30  INFO 30552 --- [leetcode-analyser] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-21T09:50:46.518+05:30  INFO 30552 --- [leetcode-analyser] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
